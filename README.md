@@ -2,7 +2,8 @@
 在学习使用koa之前，首先要知道什么是koa？学习koa需要掌握的基础知识。其实，koa可以简单理解为一个web框架，类似Django。其中我们需要掌握的基础知识是node.js、ES6语法、了解HTTP协议。下面我将使用koa简单实现一些web应用，包括路由、HTTP请求和简单模板。具体代码在github中，这里只简单记录下过程和安装配置。
 
 一．Koa环境搭建
-1.安装node.js 
+-
+###1.安装node.js 
 
 2.安装koa
 npm i koa -S或者npm install koa@2.0.0
@@ -14,6 +15,7 @@ npm i koa -S或者npm install koa@2.0.0
 
 
 二.重要概念理解
+-
 中间件（middleware）
 async函数就是中间件。其中的两个参数ctx和next。
 参数：
@@ -21,6 +23,7 @@ ctx作为上下文使用，包含了基本的ctx.request和ctx.response。可以
 next 参数的作用是将处理的控制权转交给下一个中间件，而 next() 后面的代码，将会在下一个中间件及后面的中间件（如果有的话）执行结束后再执行。
 
 三．路由实现
+-
 使用koa-router实现路由，负责处理URL映射
 3.1 安装koa-router
 npm i koa-router -S
@@ -32,6 +35,7 @@ npm i koa-router -S
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/4.png)
 
 四．HTTP请求
+-
 4.1 
 koa-router 提供了 .get、.post、.put 和 .del 接口来处理各种请求，但实际业务上，我们大部分只会接触到 POST 和 GET，所以接下来只针对这两种请求类型来说明。
 http请求的数据传递方式一般有三种。分别是请求参数放在 URL 后面、请求参数放在 URL 中间、请求参数放在 body 中。
@@ -48,6 +52,7 @@ http请求的数据传递方式一般有三种。分别是请求参数放在 UR
 
 
 五.view logic
+-
 5.1 安装koa-nunjucks-2模板引擎
 npm i koa-nunjucks-2 -S
 
