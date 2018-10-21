@@ -4,7 +4,8 @@ koa-simpleWebApplication
 
 一．Koa环境搭建
 -
-1.安装node.js<br>
+### 1.安装node.js<br>
+
 2.安装koa<br>
 npm i koa -S或者npm install koa@2.0.0<br>
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/1.png)
