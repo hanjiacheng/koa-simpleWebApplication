@@ -4,9 +4,8 @@
 一．Koa环境搭建
 -
 1.安装node.js<br>
-
 2.安装koa<br>
-npm i koa -S或者npm install koa@2.0.0
+npm i koa -S或者npm install koa@2.0.0<br>
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/1.png)
 
 出现warning:<br>
@@ -38,12 +37,6 @@ npm i koa-router -S<br>
 -
 koa-router 提供了 .get、.post、.put 和 .del 接口来处理各种请求，但实际业务上，我们大部分只会接触到 POST 和 GET，所以接下来只针对这两种请求类型来说明。<br>
 http请求的数据传递方式一般有三种。分别是请求参数放在 URL 后面、请求参数放在 URL 中间、请求参数放在 body 中。<br>
-4.1<br>
-请求参数放在 URL 后面<br>
-4.2<br>
-请求参数放在 URL 中间<br>
-4.3<br>
-请求参数放在 body 中<br>
 当用 post 方式请求时，我们会遇到一个问题：post 请求通常都会通过表单或 JSON 形式发送，而无论是 Node 还是 Koa，都 没有提供 解析 post 请求参数的功能。为了解决问题，需要koa-bodyparser 包。<br>
 安装：npm i koa-bodyparser -S<br>
 
@@ -62,8 +55,8 @@ npm i koa-nunjucks-2 -S<br>
 六．作业题 RESTful API 的优缺点<br>
 
 优点：<br>
-*适合开放性高的API。这几年的由于移动互联网流行使得前端设备多样化，业界急需一种统一的机制来规范API设计，使得API适用于各种各样的前端设备，REST符合这种需求。<br>
-*行为和资源分离，更容易理解。<br>
+* 适合开放性高的API。这几年的由于移动互联网流行使得前端设备多样化，业界急需一种统一的机制来规范API设计，使得API适用于各种各样的前端设备，REST符合这种需求。<br>
+* 行为和资源分离，更容易理解。<br>
 缺点：<br>
-*对后端开发人员要求高，业务逻辑有时难以被抽象为资源的增删改查。<br>
-*对前端开发人员不友好，API粒度较粗，难以查询符合特殊要求的数据，同样的业务要比普通的API需要更多次HTTP请求。<br>
+* 对后端开发人员要求高，业务逻辑有时难以被抽象为资源的增删改查。<br>
+* 对前端开发人员不友好，API粒度较粗，难以查询符合特殊要求的数据，同样的业务要比普通的API需要更多次HTTP请求。<br>
