@@ -5,7 +5,6 @@
 1.安装node.js 
 
 2.安装koa
-
 npm i koa -S或者npm install koa@2.0.0
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/1.png)
 
