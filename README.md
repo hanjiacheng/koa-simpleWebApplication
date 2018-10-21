@@ -17,16 +17,16 @@ npm i koa -S或者npm install koa@2.0.0<br>
 
 二.重要概念理解
 -
-中间件（middleware）<br>
+#### 中间件（middleware）<br>
 async函数就是中间件。其中的两个参数ctx和next。<br>
-参数：<br>
+#### 参数：<br>
 ctx作为上下文使用，包含了基本的ctx.request和ctx.response。可以直接通过 ctx 获取一些常用的属性或者方法，比如，ctx.url、ctx.response.type 、ctx.response.body<br>
-next 参数的作用是将处理的控制权转交给下一个中间件，而 next() 后面的代码，将会在下一个中间件及后面的中间件（如果有的话）执行结束后再执行。
+#### next 参数的作用是将处理的控制权转交给下一个中间件，而 next() 后面的代码，将会在下一个中间件及后面的中间件（如果有的话）执行结束后再执行。
 
 三．路由实现
 -
-使用koa-router实现路由，负责处理URL映射<br>
-3.1 安装koa-router<br>
+#### 使用koa-router实现路由，负责处理URL映射<br>
+#### 3.1 安装koa-router<br>
 npm i koa-router -S<br>
 
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/3.png)
@@ -47,7 +47,7 @@ http请求的数据传递方式一般有三种。分别是请求参数放在 UR
 
 五.view logic
 -
-5.1 安装koa-nunjucks-2模板引擎<br>
+#### 5.1 安装koa-nunjucks-2模板引擎<br>
 npm i koa-nunjucks-2 -S<br>
 
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/6.png)
@@ -56,9 +56,9 @@ npm i koa-nunjucks-2 -S<br>
 
 六．作业题 RESTful API 的优缺点<br>
 -
-优点：<br>
+#### 优点：<br>
 * 适合开放性高的API。这几年的由于移动互联网流行使得前端设备多样化，业界急需一种统一的机制来规范API设计，使得API适用于各种各样的前端设备，REST符合这种需求。<br>
 * 行为和资源分离，更容易理解。<br>
-缺点：<br>
+#### 缺点：<br>
 * 对后端开发人员要求高，业务逻辑有时难以被抽象为资源的增删改查。<br>
 * 对前端开发人员不友好，API粒度较粗，难以查询符合特殊要求的数据，同样的业务要比普通的API需要更多次HTTP请求。<br>
