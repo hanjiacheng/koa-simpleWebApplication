@@ -23,9 +23,11 @@ next 参数的作用是将处理的控制权转交给下一个中间件，而 
 使用koa-router实现路由，负责处理URL映射
 3.1 安装koa-router
 npm i koa-router -S
+
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/3.png)
 
 仍然出现warning:
+
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/4.png)
 
 四．HTTP请求
@@ -40,12 +42,14 @@ http请求的数据传递方式一般有三种。分别是请求参数放在 UR
 请求参数放在 body 中
 当用 post 方式请求时，我们会遇到一个问题：post 请求通常都会通过表单或 JSON 形式发送，而无论是 Node 还是 Koa，都 没有提供 解析 post 请求参数的功能。为了解决问题，需要koa-bodyparser 包。
 安装：npm i koa-bodyparser -S
+
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/5.png)
 
 
 五.view logic
 5.1 安装koa-nunjucks-2模板引擎
 npm i koa-nunjucks-2 -S
+
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/6.png)
 
 
