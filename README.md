@@ -1,4 +1,5 @@
-# koa-simpleWebApplication
+koa-simpleWebApplication
+=
 在学习使用koa之前，首先要知道什么是koa？学习koa需要掌握的基础知识。<br>其实，koa可以简单理解为一个web框架，类似Django。其中我们需要掌握的基础知识是node.js、ES6语法、了解HTTP协议。<br>下面我将使用koa简单实现一些web应用，包括路由、HTTP请求和简单模板。具体代码在[github](https://github.com/hanjiacheng/koa-simpleWebApplication)中，这里只简单记录下过程和安装配置。
 
 一．Koa环境搭建
@@ -53,7 +54,7 @@ npm i koa-nunjucks-2 -S<br>
 
 
 六．作业题 RESTful API 的优缺点<br>
-
+-
 优点：<br>
 * 适合开放性高的API。这几年的由于移动互联网流行使得前端设备多样化，业界急需一种统一的机制来规范API设计，使得API适用于各种各样的前端设备，REST符合这种需求。<br>
 * 行为和资源分离，更容易理解。<br>
