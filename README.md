@@ -1,6 +1,6 @@
 koa-simpleWebApplication
 =
-在学习使用koa之前，首先要知道什么是koa？学习koa需要掌握的基础知识。<br>其实，koa可以简单理解为一个web框架，类似Django。其中我们需要掌握的基础知识是node.js、ES6语法、了解HTTP协议。<br>下面我将使用koa简单实现一些web应用，包括路由、HTTP请求和简单模板。具[github]https://github.com/hanjiacheng/koa-simpleWebApplication)中，这里只简单记录下过程和安装配置。
+在学习使用koa之前，首先要知道什么是koa？学习koa需要掌握的基础知识。<br>其实，koa可以简单理解为一个web框架，类似Django。其中我们需要掌握的基础知识是node.js、ES6语法、了解HTTP协议。<br>下面我将使用koa简单实现一些web应用，包括路由、HTTP请求和简单模板。具题代码在[github](https://github.com/hanjiacheng/koa-simpleWebApplication)中，这里只简单记录下过程和安装配置。
 
 一．Koa环境搭建
 -
