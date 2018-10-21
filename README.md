@@ -3,7 +3,9 @@
 
 一．Koa环境搭建
 1.安装node.js 
-2.安装koa 
+
+2.安装koa
+
 npm i koa -S或者npm install koa@2.0.0
 ![image](https://github.com/hanjiacheng/koa-simpleWebApplication/blob/master/image/1.png)
 
@@ -55,6 +57,7 @@ npm i koa-nunjucks-2 -S
 
 
 六．作业题 RESTful API 的优缺点
+
 优点：
 1.适合开放性高的API。这几年的由于移动互联网流行使得前端设备多样化，业界急需一种统一的机制来规范API设计，使得API适用于各种各样的前端设备，REST符合这种需求。
 2.行为和资源分离，更容易理解。
